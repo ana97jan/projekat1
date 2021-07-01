@@ -24,8 +24,8 @@ require "admin/template/header.php";
                })
            });
        }
-   </script>
-
+   </scrip
+   
 
    <div class="row">
 
