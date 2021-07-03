@@ -40,7 +40,7 @@ else{
 	
 	 <div class="home">
      <div class="jumbotron">
-  <h1 class="display-4">Dobrodošli u optiku ANSA!!!</h1>
+  <h1 class="display-4">Dobrodošli u optiku !!</h1>
   <p align="center">Ulogujte se ili nastavite na početnu!</p>
   <h1 ><a href="index2.php">Početna </a></h1>
 </div>
@@ -51,7 +51,7 @@ else{
   	if($_SESSION['status']=='Admin'){
       ?>
       <div class="home">
-    <h1 ><a href="index3.php">Admin panel <span class="glyphicon glyphicon-wrench"></span></a></h1>
+    <h1 ><a href="index3.php">Admin panel vidi ispavi ovo <span class="glyphicon glyphicon-wrench"></span></a></h1>
   </div>
   	
        
