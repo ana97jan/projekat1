@@ -10,20 +10,7 @@ require "korisnik/template/header.php";
      </div>
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:480px;">
 
-                 <div class="post2">
-                   <?php
-                       if(isset($_GET['poruka'])) {
-                           $staPrikazati = $_GET['poruka'];
-                           if($staPrikazati == "Uspešno ste kupili naočare! ") {
-                           ?>    <div class="alert alert-info alert-dismissible" role="alert">  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <strong> <?php echo $staPrikazati  ?> </strong>
-                                </div>
-                               <?php
-                           }
-                           else {
-                             ?>    <div class="alert alert-success alert-dismissible" role="alert">  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                           <strong> <?php echo $staPrikazati  ?></strong>
-                           </div>
+                
                            <?php
                           }
                        }
