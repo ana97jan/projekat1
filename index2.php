@@ -7,7 +7,7 @@ require "korisnik/template/header.php";
       <div class="row">
 
         <div class="row_header">
-          <h1>Eyewear</h1>
+          <h1>ANSA</h1>
           <br>
         </div>
           				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">

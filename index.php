@@ -20,7 +20,7 @@ require 'php/config.php'; ?>
   if (isset($_SESSION['username']) && !empty($_SESSION['username'])) {
       ?>
        <div class="login">
-      <h2 style='color: #fff';>Dobro došli! <?php echo $_SESSION['username'] ?> !</h2>
+      <h2 style='color: #fff';>Dobro došli !!! <?php echo $_SESSION['username'] ?> !</h2>
     </div>
     <br>  
 <?php
@@ -40,7 +40,7 @@ else{
 	
 	 <div class="home">
      <div class="jumbotron">
-  <h1 class="display-4">Dobrodošli u optiku Eyewear!</h1>
+  <h1 class="display-4">Dobrodošli u optiku ANSA!!!</h1>
   <p align="center">Ulogujte se ili nastavite na početnu!</p>
   <h1 ><a href="index2.php">Početna </a></h1>
 </div>
