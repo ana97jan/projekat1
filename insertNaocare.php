@@ -43,27 +43,6 @@ require "admin/template/header.php"; ?>
                   </div>
                 </div>
 
-                  <div class="form-group">
-                      <label for="proizvodjac" class="col-sm-2  control-label">Proizvođač:</label>
-                      <div class="col-sm-8">
-                      <select id="proizvodjac" class="form-control" name="proizvodjac">
-                          <option value=''></option>
-                          <?php
-                              $urlZaSB = 'http://localhost/projekat/proizvodjac.json';
-                              $curlZaSB = curl_init($urlZaSB);
-                              curl_setopt($curlZaSB, CURLOPT_RETURNTRANSFER, true);
-                              curl_setopt($curlZaSB, CURLOPT_HTTPHEADER, array('Accept: application/json','Content-Type: application/json'));
-                              curl_setopt($curlZaSB, CURLOPT_HTTPGET, true);
-                              $curl_odgovorSB = curl_exec($curlZaSB);
-                              curl_close($curlZaSB);
-                              $odgovorOdServisa = json_decode($curl_odgovorSB);
-                              foreach($odgovorOdServisa->proizvodjac as $proizvodjac) {
-                                echo "<option value='$proizvodjac->proizvodjacID'>$proizvodjac->proizvodjacNaziv</option>";
-
-                              }
-                          ?>
-                      </select>
-                  </div>
 
                   </div>
 
